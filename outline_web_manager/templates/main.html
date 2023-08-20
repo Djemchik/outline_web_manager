@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="ru">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -123,21 +123,21 @@
       </header>
 
       <main>
-        <h3 class="mb-4">Keys</h3>
+        <h3 class="mb-4">Ключи</h3>
 
         <div id="keys-grid" class="mb-3">
           <div class="row grid-row d-none d-sm-flex fw-bold">
               <div class="col-sm-6">
                 <div class="row">
                   <div class="col-auto">#</div>
-                  <div class="col">Name</div>
-                  <div class="col-auto">Usage</div>
+                  <div class="col">Имя</div>
+                  <div class="col-auto">Использование</div>
                 </div>
               </div>
               <div class="col-sm-6">
                 <div class="row">
-                  <div class="col">Limit</div>
-                  <div class="col-auto">Actions</div>
+                  <div class="col">Лимит</div>
+                  <div class="col-auto">Действия</div>
                 </div>
               </div>
             </div>
@@ -190,7 +190,7 @@
                               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash3-fill" viewBox="0 0 16 16">
                                   <path d="M11 1.5v1h3.5a.5.5 0 0 1 0 1h-.538l-.853 10.66A2 2 0 0 1 11.115 16h-6.23a2 2 0 0 1-1.994-1.84L2.038 3.5H1.5a.5.5 0 0 1 0-1H5v-1A1.5 1.5 0 0 1 6.5 0h3A1.5 1.5 0 0 1 11 1.5Zm-5 0v1h4v-1a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5ZM4.5 5.029l.5 8.5a.5.5 0 1 0 .998-.06l-.5-8.5a.5.5 0 1 0-.998.06Zm6.53-.528a.5.5 0 0 0-.528.47l-.5 8.5a.5.5 0 0 0 .998.058l.5-8.5a.5.5 0 0 0-.47-.528ZM8 4.5a.5.5 0 0 0-.5.5v8.5a.5.5 0 0 0 1 0V5a.5.5 0 0 0-.5-.5Z"></path>
                               </svg>
-                              <span class="visually-hidden">Delete</span>
+                              <span class="visually-hidden">Удалить</span>
                             </button>
                           </form>
                         </div>
@@ -204,13 +204,13 @@
                           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clipboard-fill" viewBox="0 0 16 16">
                             <path fill-rule="evenodd" d="M10 1.5a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-1Zm-5 0A1.5 1.5 0 0 1 6.5 0h3A1.5 1.5 0 0 1 11 1.5v1A1.5 1.5 0 0 1 9.5 4h-3A1.5 1.5 0 0 1 5 2.5v-1Zm-2 0h1v1A2.5 2.5 0 0 0 6.5 5h3A2.5 2.5 0 0 0 12 2.5v-1h1a2 2 0 0 1 2 2V14a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V3.5a2 2 0 0 1 2-2Z"></path>
                           </svg>
-                          <span class="visually-hidden">Copy Access Url</span>
+                          <span class="visually-hidden">Копировать ключ доступа</span>
                         </button>
                         <button type="submit" class="btn btn-danger tooltipped tooltipped-n" aria-label="Delete">
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash3-fill" viewBox="0 0 16 16">
                                 <path d="M11 1.5v1h3.5a.5.5 0 0 1 0 1h-.538l-.853 10.66A2 2 0 0 1 11.115 16h-6.23a2 2 0 0 1-1.994-1.84L2.038 3.5H1.5a.5.5 0 0 1 0-1H5v-1A1.5 1.5 0 0 1 6.5 0h3A1.5 1.5 0 0 1 11 1.5Zm-5 0v1h4v-1a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5ZM4.5 5.029l.5 8.5a.5.5 0 1 0 .998-.06l-.5-8.5a.5.5 0 1 0-.998.06Zm6.53-.528a.5.5 0 0 0-.528.47l-.5 8.5a.5.5 0 0 0 .998.058l.5-8.5a.5.5 0 0 0-.47-.528ZM8 4.5a.5.5 0 0 0-.5.5v8.5a.5.5 0 0 0 1 0V5a.5.5 0 0 0-.5-.5Z"></path>
                             </svg>
-                            <span class="visually-hidden">Delete</span>
+                            <span class="visually-hidden">Удалить</span>
                           </a>
                         </button>
                       </div>
@@ -224,19 +224,19 @@
 
         <form class="row mb-5" action="/add" method="POST">
           <div class="input-group">
-            <input type="text" class="form-control" id="newKeyName" name="newKeyName" placeholder="<Enter new key name>">
-            <button type="submit" class="btn btn-success">Create new key</button>
+            <input type="text" class="form-control" id="newKeyName" name="newKeyName" placeholder="<Введите новое название ключа>">
+            <button type="submit" class="btn btn-success">Создать новый ключ</button>
           </div>
         </form>
 
-        <h3>Server</h3>
+        <h3>Сервер</h3>
         <div id="server-grid">
           <div class="row grid-row">
               <div class="col-sm-6">
                 <a class="list-group-item py-3" aria-current="true">
               <div class="d-flex gap-2 w-100 justify-content-between">
                 <div class="w-100">
-                  <h6 class="mb-0 opacity-75">Server name</h6>
+                  <h6 class="mb-0 opacity-75">Имя сервера</h6>
                   <form class="row" action="/set-server-name" method="POST">
                     <div class="input-group">
                       <input type="text" class="form-control" id="serverName" name="serverName" placeholder="{{ server_information['name'] }}">
@@ -256,7 +256,7 @@
                 <a class="list-group-item py-3" aria-current="true">
               <div class="d-flex gap-2 w-100 justify-content-between">
                 <div class="w-100">
-                  <h6 class="mb-0 opacity-75">Data limits</h6>
+                  <h6 class="mb-0 opacity-75">Лимиты испольвания</h6>
                   <div class="row">
                     <div class="col">
                       <form action="/set-data-limit" method="POST">
@@ -279,7 +279,7 @@
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash3-fill" viewBox="0 0 16 16">
                                   <path d="M11 1.5v1h3.5a.5.5 0 0 1 0 1h-.538l-.853 10.66A2 2 0 0 1 11.115 16h-6.23a2 2 0 0 1-1.994-1.84L2.038 3.5H1.5a.5.5 0 0 1 0-1H5v-1A1.5 1.5 0 0 1 6.5 0h3A1.5 1.5 0 0 1 11 1.5Zm-5 0v1h4v-1a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5ZM4.5 5.029l.5 8.5a.5.5 0 1 0 .998-.06l-.5-8.5a.5.5 0 1 0-.998.06Zm6.53-.528a.5.5 0 0 0-.528.47l-.5 8.5a.5.5 0 0 0 .998.058l.5-8.5a.5.5 0 0 0-.47-.528ZM8 4.5a.5.5 0 0 0-.5.5v8.5a.5.5 0 0 0 1 0V5a.5.5 0 0 0-.5-.5Z"></path>
                                 </svg>
-                                <span class="visually-hidden">Delete</span>
+                                <span class="visually-hidden">Удалить</span>
                               </button>
                             </div>
                           </form>
@@ -316,7 +316,7 @@
                 <a class="list-group-item py-3" aria-current="true">
               <div class="d-flex gap-2 w-100 justify-content-between">
                 <div class="w-100">
-                  <h6 class="mb-0 opacity-75">Port for new access key</h6>
+                  <h6 class="mb-0 opacity-75">Порт для новых ключей</h6>
                   <form class="row" action="/set-port" method="POST">
                     <div class="input-group">
                       <input type="text" class="form-control" id="portForNewAccessKeys" name="portForNewAccessKeys" placeholder="{{ server_information['portForNewAccessKeys'] }}">
@@ -338,7 +338,7 @@
                 <a class="list-group-item py-3" aria-current="true">
                   <div class="d-flex gap-2 w-100 justify-content-between">
                     <div class="w-100">
-                      <h6 class="mb-0 opacity-75">Data transferred / last 30 days</h6>
+                      <h6 class="mb-0 opacity-75">Испование данных за последние 30 дней</h6>
                       <p class="mb-0">{{ "%.1f"|format((total_month_usage or 0) / 1000 / 1000 / 1000) }} GB</p>
                     </div>
                   </div>
@@ -348,7 +348,7 @@
                 <a class="list-group-item py-3" aria-current="true">
               <div class="d-flex gap-2 w-100 justify-content-between">
                 <div class="w-100">
-                  <h6 class="mb-0 opacity-75">Created</h6>
+                  <h6 class="mb-0 opacity-75">Создан</h6>
                   <p class="mb-0">{{ server_creation }}</p>
                 </div>
               </div>
@@ -370,17 +370,17 @@
                 <a class="list-group-item py-3" aria-current="true">
               <div class="d-flex gap-2 w-100 justify-content-between">
                 <div>
-                  <h6 class="mb-0 opacity-75">Share anonymous metrics</h6>
+                  <h6 class="mb-0 opacity-75">Делиться анонимной статистикой</h6>
                   <form action="/set-metrics" method="POST">
                     <div class="form-check form-check-inline">
                       <input type="radio" class="form-check-input" name="metrics" value="true" id="metricsEnabled" autocomplete="off" {% if server_information['metricsEnabled'] %}checked{% endif %}>
-                      <label class="form-check-label" for="metricsEnabled">Enabled</label>
+                      <label class="form-check-label" for="metricsEnabled">Включено</label>
                     </div>
                     <div class="form-check form-check-inline">
                       <input type="radio" class="form-check-input" name="metrics" value="false" id="metricsDisabled" autocomplete="off" {% if not server_information['metricsEnabled'] %}checked{% endif %}>
-                      <label class="form-check-label" for="metricsDisabled">Disabled</label>
+                      <label class="form-check-label" for="metricsDisabled">Выключено</label>
                     </div>
-                    <button type="submit" class="btn btn-secondary">Apply</button>
+                    <button type="submit" class="btn btn-secondary">Принять</button>
                   </form>
                 </div>
               </div>
@@ -392,7 +392,7 @@
                 <a class="list-group-item py-3" aria-current="true">
                 <div class="d-flex gap-2 w-100 justify-content-between">
                   <div class="w-100">
-                    <h6 class="mb-0 opacity-75">Server version</h6>
+                    <h6 class="mb-0 opacity-75">Версия сервера</h6>
                     <p class="mb-0">{{ server_information['version'] }}</p>
                   </div>
                 </div>
@@ -403,7 +403,7 @@
       </main>
 
       <footer class="pt-5 my-5 text-muted border-top">
-        <a href="https://github.com/ilyhan2009/outline_web_manager">Outline Web Manager</a>, 2022
+        <a href="https://github.com/ilyhan2009/outline_web_manager">Outline Web Manager</a>, 2023
       </footer>
     </div>
     <script src="/static/dist/js/copy-tooltip.js"></script>
